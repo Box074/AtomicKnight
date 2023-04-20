@@ -1,0 +1,815 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c0d4a6501701d478f1ffa78365f863, type: 3}
+  m_Name: rotorobot
+  m_EditorClassIdentifier: 
+  m_atlas: {fileID: -8695229737941416714, guid: f4087e210c17a7a4a8cb8aa8e2ef0674, type: 3}
+  m_clips:
+  - m_name: 00000
+    m_actions: []
+  - m_name: Unalert Idle
+    m_actions:
+    - m_actionType: 0
+      m_clipName: Armature_AS_rotorobot_idle_combat
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Unalert Run
+    m_actions:
+    - m_actionType: 0
+      m_clipName: Armature_AS_rotorobot_run
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Alert Hero
+    m_actions:
+    - m_actionType: 1
+      m_clipName: Armature_AS_rotorobot_idle_combat2agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 27
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_combat
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 27
+      m_eventName: Atk_Idle
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 27
+      m_eventName: Atk_Idle
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 27
+      m_eventName: Atk_Idle
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Unalert Hero
+    m_actions:
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_combat
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 27
+      m_eventName: Atk_Idle
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: Armature_AS_rotorobot_idle_agro2combat
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 27
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Unalert Idle
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 27
+      m_eventName: Atk_Idle
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack Turn
+    m_actions:
+    - m_actionType: 1
+      m_clipName: Armature_AS_rotorobot_attack_turn
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 11
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_attack_turn
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 11
+      m_eventName: Atk_Turn
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 26
+      m_eventName: Atk_Turn
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 26
+      m_eventName: Atk_Turn
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 11
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 3
+      m_clipName: Armature_AS_rotorobot_attack_turn
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: FlipX
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: FlipX
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack Idle
+    m_actions:
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Atk_Idle
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack Run
+    m_actions:
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Atk_Idle
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Audio_Run
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: Armature_AS_rotorobot_agro_run
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack Run Turn L
+    m_actions:
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Audio_Run
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Atk_Idle
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: Armature_AS_rotorobot_agro_run_turn180L
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 3
+      m_clipName: Armature_AS_rotorobot_agro_run_turn180L
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: FlipX
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Run
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack Run Turn R
+    m_actions:
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Audio_Run
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Atk_Idle
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: Armature_AS_rotorobot_agro_run_turn180R
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 3
+      m_clipName: Armature_AS_rotorobot_agro_run_turn180R
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: FlipX
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Run
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack 1
+    m_actions:
+    - m_actionType: 1
+      m_clipName: Armature_AS_rotorobot_attack_01
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 10
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 6
+      m_clipName: Armature_AS_rotorobot_attack_01
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 10
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 11400000, guid: 8b0bec247692ae44ba6e438ccac1befa, type: 2}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Attack Idle
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: HB_Atk_1_0
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 10
+      m_stopFrame: 18
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 10
+      m_stopFrame: 18
+      m_eventName: HB_Atk_1_0
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 18
+      m_stopFrame: 37
+      m_eventName: HB_Atk_1_0
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 18
+      m_stopFrame: 37
+      m_eventName: HB_Atk_1_1
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 6
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 18
+      m_stopFrame: 37
+      m_eventName: HB_Atk_1_1
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 11400000, guid: 8b0bec247692ae44ba6e438ccac1befa, type: 2}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 37
+      m_stopFrame: 42
+      m_eventName: HB_Atk_1_1
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 37
+      m_stopFrame: 42
+      m_eventName: HB_Atk_1_1
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 37
+      m_stopFrame: 42
+      m_eventName: HB_Atk_1_2
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 42
+      m_stopFrame: 55
+      m_eventName: HB_Atk_1_2
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 42
+      m_stopFrame: 55
+      m_eventName: HB_Atk_1_2
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 0
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 55
+      m_stopFrame: 55
+      m_eventName: HB_Atk_1_2
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 55
+      m_stopFrame: 55
+      m_eventName: HB_Atk_1_2
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack 2
+    m_actions:
+    - m_actionType: 1
+      m_clipName: Armature_AS_rotorobot_attack_02
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 13
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 6
+      m_clipName: Armature_AS_rotorobot_attack_02
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 13
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 11400000, guid: 8b0bec247692ae44ba6e438ccac1befa, type: 2}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_attack_03
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 13
+      m_eventName: HB_Atk_3
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 24
+      m_eventName: 
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 24
+      m_eventName: HB_Atk_3
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack 3
+    m_actions:
+    - m_actionType: 1
+      m_clipName: Armature_AS_rotorobot_attack_03
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 13
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 6
+      m_clipName: Armature_AS_rotorobot_attack_03
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 13
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 11400000, guid: 8b0bec247692ae44ba6e438ccac1befa, type: 2}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_attack_03
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 13
+      m_eventName: HB_Atk_3
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 24
+      m_eventName: 
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 24
+      m_eventName: HB_Atk_3
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Attack 4
+    m_actions:
+    - m_actionType: 1
+      m_clipName: Armature_AS_rotorobot_attack_04
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 25
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Audio_Run
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_attack_03
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 13
+      m_eventName: HB_Atk_4
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 1
+      m_clipName: 
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 70
+      m_eventName: 
+      m_resetOnExit: 1
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: 
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 24
+      m_eventName: HB_Atk_4
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 5
+      m_clipName: Armature_AS_rotorobot_idle_agro
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: Audio_Run
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 1
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Hit BU
+    m_actions:
+    - m_actionType: 0
+      m_clipName: Armature_AS_Rotorobot_Hitreaction_Upward_back
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Hit BD
+    m_actions:
+    - m_actionType: 0
+      m_clipName: Armature_AS_Rotorobot_Hitreaction_Downward_back
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Hit FU
+    m_actions:
+    - m_actionType: 0
+      m_clipName: Armature_AS_Rotorobot_Hitreaction_Upward_front
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  - m_name: Hit FD
+    m_actions:
+    - m_actionType: 0
+      m_clipName: Armature_AS_Rotorobot_Hitreaction_Downward_front
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+    - m_actionType: 4
+      m_clipName: Attack Idle
+      m_loop: 0
+      m_time: 0
+      m_startFrame: 0
+      m_stopFrame: 0
+      m_eventName: 
+      m_resetOnExit: 0
+      m_audioGroup: {fileID: 0}
+      m_audioGroupId: 0
+  m_audioGroups:
+  - {fileID: 11400000, guid: 8b0bec247692ae44ba6e438ccac1befa, type: 2}
+  m_data: '[{"m_name":"00000","m_actions":[]},{"m_name":"Unalert Idle","m_actions":[{"m_actionType":0,"m_clipName":"Armature_AS_rotorobot_idle_combat","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Unalert
+    Run","m_actions":[{"m_actionType":0,"m_clipName":"Armature_AS_rotorobot_run","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Alert
+    Hero","m_actions":[{"m_actionType":1,"m_clipName":"Armature_AS_rotorobot_idle_combat2agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":27,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_combat","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":27,"m_eventName":"Atk_Idle","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":27,"m_eventName":"Atk_Idle","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":27,"m_eventName":"Atk_Idle","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Unalert
+    Hero","m_actions":[{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_combat","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":27,"m_eventName":"Atk_Idle","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"Armature_AS_rotorobot_idle_agro2combat","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":27,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Unalert
+    Idle","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":27,"m_eventName":"Atk_Idle","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    Turn","m_actions":[{"m_actionType":1,"m_clipName":"Armature_AS_rotorobot_attack_turn","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":11,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_attack_turn","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":11,"m_eventName":"Atk_Turn","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":26,"m_eventName":"Atk_Turn","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":26,"m_eventName":"Atk_Turn","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":11,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":3,"m_clipName":"Armature_AS_rotorobot_attack_turn","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"FlipX","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"FlipX","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    Idle","m_actions":[{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Atk_Idle","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    Run","m_actions":[{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Atk_Idle","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Audio_Run","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"Armature_AS_rotorobot_agro_run","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    Run Turn L","m_actions":[{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Audio_Run","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Atk_Idle","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"Armature_AS_rotorobot_agro_run_turn180L","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":3,"m_clipName":"Armature_AS_rotorobot_agro_run_turn180L","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"FlipX","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Run","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    Run Turn R","m_actions":[{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Audio_Run","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Atk_Idle","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"Armature_AS_rotorobot_agro_run_turn180R","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":3,"m_clipName":"Armature_AS_rotorobot_agro_run_turn180R","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"FlipX","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Run","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    1","m_actions":[{"m_actionType":1,"m_clipName":"Armature_AS_rotorobot_attack_01","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":10,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":6,"m_clipName":"Armature_AS_rotorobot_attack_01","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":10,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Attack
+    Idle","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"HB_Atk_1_0","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":10,"m_stopFrame":18,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":10,"m_stopFrame":18,"m_eventName":"HB_Atk_1_0","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":18,"m_stopFrame":37,"m_eventName":"HB_Atk_1_0","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":18,"m_stopFrame":37,"m_eventName":"HB_Atk_1_1","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":6,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":18,"m_stopFrame":37,"m_eventName":"HB_Atk_1_1","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":37,"m_stopFrame":42,"m_eventName":"HB_Atk_1_1","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":37,"m_stopFrame":42,"m_eventName":"HB_Atk_1_1","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":37,"m_stopFrame":42,"m_eventName":"HB_Atk_1_2","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":42,"m_stopFrame":55,"m_eventName":"HB_Atk_1_2","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":42,"m_stopFrame":55,"m_eventName":"HB_Atk_1_2","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":0,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":55,"m_stopFrame":55,"m_eventName":"HB_Atk_1_2","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":false,"m_time":0.0,"m_startFrame":55,"m_stopFrame":55,"m_eventName":"HB_Atk_1_2","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    2","m_actions":[{"m_actionType":1,"m_clipName":"Armature_AS_rotorobot_attack_02","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":13,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":6,"m_clipName":"Armature_AS_rotorobot_attack_02","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":13,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_attack_03","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":13,"m_eventName":"HB_Atk_3","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":24,"m_eventName":"","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":24,"m_eventName":"HB_Atk_3","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    3","m_actions":[{"m_actionType":1,"m_clipName":"Armature_AS_rotorobot_attack_03","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":13,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":6,"m_clipName":"Armature_AS_rotorobot_attack_03","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":13,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_attack_03","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":13,"m_eventName":"HB_Atk_3","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":24,"m_eventName":"","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":24,"m_eventName":"HB_Atk_3","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Attack
+    4","m_actions":[{"m_actionType":1,"m_clipName":"Armature_AS_rotorobot_attack_04","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":25,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Audio_Run","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_attack_03","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":13,"m_eventName":"HB_Atk_4","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":1,"m_clipName":"","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":70,"m_eventName":"","m_resetOnExit":true,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":24,"m_eventName":"HB_Atk_4","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":5,"m_clipName":"Armature_AS_rotorobot_idle_agro","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"Audio_Run","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":true,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Hit
+    BU","m_actions":[{"m_actionType":0,"m_clipName":"Armature_AS_Rotorobot_Hitreaction_Upward_back","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Hit
+    BD","m_actions":[{"m_actionType":0,"m_clipName":"Armature_AS_Rotorobot_Hitreaction_Downward_back","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Hit
+    FU","m_actions":[{"m_actionType":0,"m_clipName":"Armature_AS_Rotorobot_Hitreaction_Upward_front","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]},{"m_name":"Hit
+    FD","m_actions":[{"m_actionType":0,"m_clipName":"Armature_AS_Rotorobot_Hitreaction_Downward_front","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0},{"m_actionType":4,"m_clipName":"Attack
+    Idle","m_loop":false,"m_time":0.0,"m_startFrame":0,"m_stopFrame":0,"m_eventName":"","m_resetOnExit":false,"m_audioGroupId":0}]}]'

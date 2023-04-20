@@ -1,0 +1,3102 @@
+fileFormatVersion: 2
+guid: 4eda58909b4b714448331d11c0cec685
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1dad61242e62abe43a47223b3a1b633e, type: 3}
+  atlasTextures:
+  - {fileID: 2800000, guid: e0fa92b334d50b44dbc2d74334414195, type: 3}
+  atlasObj:
+    atlasTextureNames:
+    - rotorobot_death.atlas
+    atlasTextures:
+    - {instanceID: 0}
+    tiles:
+    - originalName: Armature_AS_Rotorobot_ShockWalk_121
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 0}
+      wh: {x: 252, y: 144}
+      index: 121
+      offset: {x: 0, y: 4}
+      originalSize: {x: 254, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_4
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 253, y: 0}
+      wh: {x: 251, y: 143}
+      index: 4
+      offset: {x: 0, y: 4}
+      originalSize: {x: 253, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_109
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 505, y: 0}
+      wh: {x: 251, y: 142}
+      index: 109
+      offset: {x: 0, y: 4}
+      originalSize: {x: 252, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_16
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 757, y: 0}
+      wh: {x: 249, y: 142}
+      index: 16
+      offset: {x: 0, y: 4}
+      originalSize: {x: 250, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_133
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1007, y: 0}
+      wh: {x: 248, y: 143}
+      index: 133
+      offset: {x: 0, y: 4}
+      originalSize: {x: 250, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_15
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 505, y: 143}
+      wh: {x: 246, y: 142}
+      index: 15
+      offset: {x: 0, y: 5}
+      originalSize: {x: 247, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_97
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 253, y: 144}
+      wh: {x: 243, y: 143}
+      index: 97
+      offset: {x: 0, y: 4}
+      originalSize: {x: 245, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_98
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 145}
+      wh: {x: 243, y: 142}
+      index: 98
+      offset: {x: 0, y: 3}
+      originalSize: {x: 245, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_132
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 752, y: 143}
+      wh: {x: 241, y: 143}
+      index: 132
+      offset: {x: 1, y: 5}
+      originalSize: {x: 243, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_110
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 497, y: 286}
+      wh: {x: 238, y: 143}
+      index: 110
+      offset: {x: 0, y: 2}
+      originalSize: {x: 240, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_3
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 288}
+      wh: {x: 238, y: 143}
+      index: 3
+      offset: {x: 4, y: 4}
+      originalSize: {x: 243, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_120
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 239, y: 288}
+      wh: {x: 235, y: 143}
+      index: 120
+      offset: {x: 6, y: 4}
+      originalSize: {x: 242, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_122
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1256, y: 0}
+      wh: {x: 231, y: 143}
+      index: 122
+      offset: {x: 1, y: 3}
+      originalSize: {x: 233, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_144
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1488, y: 0}
+      wh: {x: 229, y: 138}
+      index: 144
+      offset: {x: 2, y: 9}
+      originalSize: {x: 232, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_108
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1718, y: 0}
+      wh: {x: 227, y: 142}
+      index: 108
+      offset: {x: 11, y: 4}
+      originalSize: {x: 238, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_26
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1488, y: 139}
+      wh: {x: 226, y: 157}
+      index: 26
+      offset: {x: 7, y: 3}
+      originalSize: {x: 234, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_4
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 994, y: 144}
+      wh: {x: 226, y: 140}
+      index: 4
+      offset: {x: 19, y: 12}
+      originalSize: {x: 245, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_169
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1221, y: 144}
+      wh: {x: 223, y: 139}
+      index: 169
+      offset: {x: 1, y: 5}
+      originalSize: {x: 224, y: 153}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_3
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 1221, y: 284}
+      wh: {x: 223, y: 139}
+      index: 3
+      offset: {x: 19, y: 10}
+      originalSize: {x: 242, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_167
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 994, y: 285}
+      wh: {x: 222, y: 140}
+      index: 167
+      offset: {x: 2, y: 4}
+      originalSize: {x: 224, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_143
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 736, y: 287}
+      wh: {x: 222, y: 139}
+      index: 143
+      offset: {x: 4, y: 8}
+      originalSize: {x: 226, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_145
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1946, y: 0}
+      wh: {x: 222, y: 138}
+      index: 145
+      offset: {x: 0, y: 8}
+      originalSize: {x: 223, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_27
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 2169, y: 0}
+      wh: {x: 221, y: 159}
+      index: 27
+      offset: {x: 14, y: 2}
+      originalSize: {x: 238, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_5
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1946, y: 139}
+      wh: {x: 221, y: 143}
+      index: 5
+      offset: {x: 2, y: 3}
+      originalSize: {x: 227, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_17
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1715, y: 143}
+      wh: {x: 221, y: 142}
+      index: 17
+      offset: {x: 1, y: 5}
+      originalSize: {x: 223, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_168
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2391, y: 0}
+      wh: {x: 221, y: 138}
+      index: 168
+      offset: {x: 2, y: 5}
+      originalSize: {x: 224, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_134
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2613, y: 0}
+      wh: {x: 220, y: 144}
+      index: 134
+      offset: {x: 0, y: 5}
+      originalSize: {x: 225, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_166
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2391, y: 139}
+      wh: {x: 220, y: 139}
+      index: 166
+      offset: {x: 2, y: 5}
+      originalSize: {x: 223, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_170
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2168, y: 160}
+      wh: {x: 219, y: 142}
+      index: 170
+      offset: {x: 0, y: 1}
+      originalSize: {x: 220, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_171
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1937, y: 283}
+      wh: {x: 218, y: 141}
+      index: 171
+      offset: {x: 1, y: 4}
+      originalSize: {x: 219, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_2
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 1715, y: 286}
+      wh: {x: 218, y: 136}
+      index: 2
+      offset: {x: 16, y: 7}
+      originalSize: {x: 234, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_57
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1445, y: 297}
+      wh: {x: 217, y: 269}
+      index: 57
+      offset: {x: 12, y: 5}
+      originalSize: {x: 230, y: 277}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_6
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 1217, y: 424}
+      wh: {x: 217, y: 146}
+      index: 6
+      offset: {x: 2, y: 10}
+      originalSize: {x: 226, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_165
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 959, y: 426}
+      wh: {x: 216, y: 139}
+      index: 165
+      offset: {x: 0, y: 3}
+      originalSize: {x: 217, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_5
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 736, y: 427}
+      wh: {x: 215, y: 142}
+      index: 5
+      offset: {x: 2, y: 11}
+      originalSize: {x: 218, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_4
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 475, y: 430}
+      wh: {x: 215, y: 140}
+      index: 4
+      offset: {x: 3, y: 11}
+      originalSize: {x: 218, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_14
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 952, y: 566}
+      wh: {x: 214, y: 142}
+      index: 14
+      offset: {x: 14, y: 3}
+      originalSize: {x: 234, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_56
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 691, y: 570}
+      wh: {x: 213, y: 278}
+      index: 56
+      offset: {x: 12, y: 1}
+      originalSize: {x: 226, y: 280}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_211
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1663, y: 423}
+      wh: {x: 213, y: 143}
+      index: 211
+      offset: {x: 1, y: 5}
+      originalSize: {x: 215, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_26
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 432}
+      wh: {x: 212, y: 144}
+      index: 26
+      offset: {x: 2, y: 5}
+      originalSize: {x: 216, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_146
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 213, y: 432}
+      wh: {x: 211, y: 141}
+      index: 146
+      offset: {x: 2, y: 8}
+      originalSize: {x: 214, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_2
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 425, y: 571}
+      wh: {x: 211, y: 141}
+      index: 2
+      offset: {x: 2, y: 9}
+      originalSize: {x: 229, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_210
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 213, y: 574}
+      wh: {x: 210, y: 143}
+      index: 210
+      offset: {x: 3, y: 6}
+      originalSize: {x: 214, y: 153}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_96
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 577}
+      wh: {x: 210, y: 142}
+      index: 96
+      offset: {x: 15, y: 4}
+      originalSize: {x: 230, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_5
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 424, y: 713}
+      wh: {x: 210, y: 137}
+      index: 5
+      offset: {x: 1, y: 9}
+      originalSize: {x: 227, y: 153}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_164
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 211, y: 718}
+      wh: {x: 209, y: 138}
+      index: 164
+      offset: {x: 2, y: 3}
+      originalSize: {x: 212, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_99
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 720}
+      wh: {x: 208, y: 142}
+      index: 99
+      offset: {x: 4, y: 3}
+      originalSize: {x: 213, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_172
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2834, y: 0}
+      wh: {x: 208, y: 141}
+      index: 172
+      offset: {x: 1, y: 5}
+      originalSize: {x: 211, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_3
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3043, y: 0}
+      wh: {x: 208, y: 139}
+      index: 3
+      offset: {x: 2, y: 10}
+      originalSize: {x: 226, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_4
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3252, y: 0}
+      wh: {x: 207, y: 138}
+      index: 4
+      offset: {x: 2, y: 10}
+      originalSize: {x: 225, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_55
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3460, y: 0}
+      wh: {x: 206, y: 279}
+      index: 55
+      offset: {x: 12, y: 4}
+      originalSize: {x: 219, y: 285}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_131
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3252, y: 139}
+      wh: {x: 206, y: 143}
+      index: 131
+      offset: {x: 16, y: 4}
+      originalSize: {x: 231, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_25
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3043, y: 140}
+      wh: {x: 206, y: 143}
+      index: 25
+      offset: {x: 14, y: 5}
+      originalSize: {x: 220, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_3
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 2834, y: 142}
+      wh: {x: 205, y: 139}
+      index: 3
+      offset: {x: 1, y: 8}
+      originalSize: {x: 210, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_6
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2612, y: 145}
+      wh: {x: 205, y: 137}
+      index: 6
+      offset: {x: 1, y: 9}
+      originalSize: {x: 222, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_147
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2388, y: 279}
+      wh: {x: 204, y: 144}
+      index: 147
+      offset: {x: 3, y: 8}
+      originalSize: {x: 208, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_74
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2818, y: 282}
+      wh: {x: 203, y: 145}
+      index: 74
+      offset: {x: 2, y: 4}
+      originalSize: {x: 206, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_86
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2593, y: 283}
+      wh: {x: 203, y: 144}
+      index: 86
+      offset: {x: 6, y: 3}
+      originalSize: {x: 210, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_5
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2156, y: 303}
+      wh: {x: 203, y: 143}
+      index: 5
+      offset: {x: 1, y: 12}
+      originalSize: {x: 211, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_151
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2360, y: 424}
+      wh: {x: 203, y: 139}
+      index: 151
+      offset: {x: 13, y: 12}
+      originalSize: {x: 217, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_73
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1877, y: 425}
+      wh: {x: 202, y: 145}
+      index: 73
+      offset: {x: 8, y: 4}
+      originalSize: {x: 211, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_173
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2080, y: 447}
+      wh: {x: 202, y: 143}
+      index: 173
+      offset: {x: 2, y: 5}
+      originalSize: {x: 205, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_153
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3667, y: 0}
+      wh: {x: 202, y: 140}
+      index: 153
+      offset: {x: 9, y: 13}
+      originalSize: {x: 212, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_163
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3870, y: 0}
+      wh: {x: 202, y: 137}
+      index: 163
+      offset: {x: 5, y: 7}
+      originalSize: {x: 208, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_111
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3870, y: 138}
+      wh: {x: 201, y: 143}
+      index: 111
+      offset: {x: 1, y: 2}
+      originalSize: {x: 206, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_152
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3667, y: 141}
+      wh: {x: 201, y: 140}
+      index: 152
+      offset: {x: 11, y: 11}
+      originalSize: {x: 214, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_150
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3459, y: 280}
+      wh: {x: 201, y: 139}
+      index: 150
+      offset: {x: 12, y: 12}
+      originalSize: {x: 215, y: 159}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_160
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3250, y: 283}
+      wh: {x: 201, y: 139}
+      index: 160
+      offset: {x: 0, y: 10}
+      originalSize: {x: 204, y: 159}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_13
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3022, y: 284}
+      wh: {x: 201, y: 132}
+      index: 13
+      offset: {x: 1, y: 13}
+      originalSize: {x: 219, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_15
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3022, y: 417}
+      wh: {x: 201, y: 131}
+      index: 15
+      offset: {x: 1, y: 15}
+      originalSize: {x: 218, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_54
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3661, y: 282}
+      wh: {x: 200, y: 291}
+      index: 54
+      offset: {x: 13, y: 1}
+      originalSize: {x: 214, y: 293}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_22
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3452, y: 420}
+      wh: {x: 200, y: 183}
+      index: 22
+      offset: {x: 2, y: 12}
+      originalSize: {x: 202, y: 199}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_159
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3224, y: 423}
+      wh: {x: 200, y: 140}
+      index: 159
+      offset: {x: 1, y: 9}
+      originalSize: {x: 202, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_9
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3862, y: 282}
+      wh: {x: 200, y: 133}
+      index: 9
+      offset: {x: 2, y: 9}
+      originalSize: {x: 219, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_14
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3862, y: 416}
+      wh: {x: 200, y: 132}
+      index: 14
+      offset: {x: 1, y: 14}
+      originalSize: {x: 218, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_12
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3862, y: 549}
+      wh: {x: 200, y: 132}
+      index: 12
+      offset: {x: 3, y: 11}
+      originalSize: {x: 220, y: 153}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_25
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3653, y: 574}
+      wh: {x: 199, y: 155}
+      index: 25
+      offset: {x: 8, y: 4}
+      originalSize: {x: 208, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_142
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3853, y: 682}
+      wh: {x: 199, y: 141}
+      index: 142
+      offset: {x: 3, y: 6}
+      originalSize: {x: 216, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_161
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1435, y: 567}
+      wh: {x: 199, y: 138}
+      index: 161
+      offset: {x: 4, y: 11}
+      originalSize: {x: 204, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_8
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1635, y: 567}
+      wh: {x: 199, y: 136}
+      index: 8
+      offset: {x: 1, y: 9}
+      originalSize: {x: 217, y: 153}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_10
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1835, y: 571}
+      wh: {x: 199, y: 134}
+      index: 10
+      offset: {x: 3, y: 9}
+      originalSize: {x: 219, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_11
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1635, y: 704}
+      wh: {x: 199, y: 134}
+      index: 11
+      offset: {x: 4, y: 9}
+      originalSize: {x: 220, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_16
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1167, y: 571}
+      wh: {x: 199, y: 132}
+      index: 16
+      offset: {x: 1, y: 14}
+      originalSize: {x: 216, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_21
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1167, y: 704}
+      wh: {x: 198, y: 182}
+      index: 21
+      offset: {x: 2, y: 16}
+      originalSize: {x: 201, y: 201}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_2
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 905, y: 709}
+      wh: {x: 198, y: 143}
+      index: 2
+      offset: {x: 17, y: 3}
+      originalSize: {x: 227, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_7
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1366, y: 706}
+      wh: {x: 198, y: 135}
+      index: 7
+      offset: {x: 2, y: 10}
+      originalSize: {x: 217, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_17
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 635, y: 849}
+      wh: {x: 198, y: 132}
+      index: 17
+      offset: {x: 2, y: 14}
+      originalSize: {x: 216, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_7
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 421, y: 851}
+      wh: {x: 197, y: 148}
+      index: 7
+      offset: {x: 1, y: 9}
+      originalSize: {x: 215, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_162
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 209, y: 857}
+      wh: {x: 197, y: 136}
+      index: 162
+      offset: {x: 6, y: 12}
+      originalSize: {x: 204, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_28
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 0, y: 863}
+      wh: {x: 196, y: 159}
+      index: 28
+      offset: {x: 17, y: 3}
+      originalSize: {x: 230, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_148
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 197, y: 994}
+      wh: {x: 196, y: 146}
+      index: 148
+      offset: {x: 6, y: 7}
+      originalSize: {x: 203, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_18
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 0, y: 1023}
+      wh: {x: 196, y: 133}
+      index: 18
+      offset: {x: 3, y: 14}
+      originalSize: {x: 215, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_174
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 834, y: 853}
+      wh: {x: 195, y: 144}
+      index: 174
+      offset: {x: 1, y: 5}
+      originalSize: {x: 197, y: 159}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_219
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 619, y: 982}
+      wh: {x: 195, y: 143}
+      index: 219
+      offset: {x: 0, y: 3}
+      originalSize: {x: 211, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_220
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 394, y: 1000}
+      wh: {x: 195, y: 143}
+      index: 220
+      offset: {x: 0, y: 3}
+      originalSize: {x: 210, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_154
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 197, y: 1141}
+      wh: {x: 195, y: 142}
+      index: 154
+      offset: {x: 9, y: 12}
+      originalSize: {x: 205, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_20
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 0, y: 1157}
+      wh: {x: 195, y: 132}
+      index: 20
+      offset: {x: 1, y: 14}
+      originalSize: {x: 212, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_19
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2564, y: 428}
+      wh: {x: 195, y: 131}
+      index: 19
+      offset: {x: 3, y: 14}
+      originalSize: {x: 214, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_149
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2760, y: 428}
+      wh: {x: 194, y: 143}
+      index: 149
+      offset: {x: 10, y: 11}
+      originalSize: {x: 207, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_21
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2564, y: 560}
+      wh: {x: 194, y: 132}
+      index: 21
+      offset: {x: 1, y: 14}
+      originalSize: {x: 211, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_53
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2955, y: 549}
+      wh: {x: 193, y: 283}
+      index: 53
+      offset: {x: 13, y: 11}
+      originalSize: {x: 207, y: 296}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_23
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 2759, y: 572}
+      wh: {x: 193, y: 171}
+      index: 23
+      offset: {x: 1, y: 6}
+      originalSize: {x: 197, y: 179}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_1
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2283, y: 564}
+      wh: {x: 193, y: 147}
+      index: 1
+      offset: {x: 8, y: 3}
+      originalSize: {x: 216, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_119
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2035, y: 591}
+      wh: {x: 193, y: 143}
+      index: 119
+      offset: {x: 18, y: 3}
+      originalSize: {x: 224, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_158
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1835, y: 706}
+      wh: {x: 193, y: 143}
+      index: 158
+      offset: {x: 3, y: 8}
+      originalSize: {x: 197, y: 159}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_221
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1565, y: 839}
+      wh: {x: 193, y: 142}
+      index: 221
+      offset: {x: 1, y: 3}
+      originalSize: {x: 209, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_20
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1366, y: 842}
+      wh: {x: 192, y: 177}
+      index: 20
+      offset: {x: 2, y: 18}
+      originalSize: {x: 195, y: 198}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_19
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2477, y: 693}
+      wh: {x: 192, y: 157}
+      index: 19
+      offset: {x: 1, y: 8}
+      originalSize: {x: 209, y: 172}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_18
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2229, y: 712}
+      wh: {x: 192, y: 150}
+      index: 18
+      offset: {x: 2, y: 11}
+      originalSize: {x: 210, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_218
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2029, y: 735}
+      wh: {x: 192, y: 143}
+      index: 218
+      offset: {x: 0, y: 3}
+      originalSize: {x: 208, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_51
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1759, y: 850}
+      wh: {x: 191, y: 146}
+      index: 51
+      offset: {x: 2, y: 4}
+      originalSize: {x: 194, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_175
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1559, y: 982}
+      wh: {x: 191, y: 143}
+      index: 175
+      offset: {x: 2, y: 7}
+      originalSize: {x: 194, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_85
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2670, y: 744}
+      wh: {x: 191, y: 143}
+      index: 85
+      offset: {x: 21, y: 3}
+      originalSize: {x: 213, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_19
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 2422, y: 851}
+      wh: {x: 190, y: 172}
+      index: 19
+      offset: {x: 1, y: 17}
+      originalSize: {x: 192, y: 195}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_20
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2222, y: 863}
+      wh: {x: 190, y: 156}
+      index: 20
+      offset: {x: 1, y: 6}
+      originalSize: {x: 207, y: 168}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_27
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1951, y: 879}
+      wh: {x: 190, y: 147}
+      index: 27
+      offset: {x: 2, y: 10}
+      originalSize: {x: 209, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_50
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1751, y: 997}
+      wh: {x: 190, y: 146}
+      index: 50
+      offset: {x: 2, y: 4}
+      originalSize: {x: 193, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_178
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2142, y: 1020}
+      wh: {x: 190, y: 146}
+      index: 178
+      offset: {x: 3, y: 8}
+      originalSize: {x: 194, y: 171}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_179
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1942, y: 1027}
+      wh: {x: 190, y: 145}
+      index: 179
+      offset: {x: 2, y: 9}
+      originalSize: {x: 193, y: 171}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_17
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 3149, y: 564}
+      wh: {x: 190, y: 144}
+      index: 17
+      offset: {x: 8, y: 10}
+      originalSize: {x: 215, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_190
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3340, y: 604}
+      wh: {x: 190, y: 141}
+      index: 190
+      offset: {x: 8, y: 8}
+      originalSize: {x: 199, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_189
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3149, y: 709}
+      wh: {x: 190, y: 139}
+      index: 189
+      offset: {x: 8, y: 9}
+      originalSize: {x: 199, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_12
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2862, y: 833}
+      wh: {x: 190, y: 138}
+      index: 12
+      offset: {x: 1, y: 11}
+      originalSize: {x: 207, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_2
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 2613, y: 888}
+      wh: {x: 190, y: 138}
+      index: 2
+      offset: {x: 1, y: 5}
+      originalSize: {x: 206, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_13
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2333, y: 1024}
+      wh: {x: 190, y: 137}
+      index: 13
+      offset: {x: 2, y: 11}
+      originalSize: {x: 208, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_28
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 3531, y: 730}
+      wh: {x: 189, y: 150}
+      index: 28
+      offset: {x: 3, y: 10}
+      originalSize: {x: 208, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_26
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 3340, y: 746}
+      wh: {x: 189, y: 146}
+      index: 26
+      offset: {x: 1, y: 10}
+      originalSize: {x: 207, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_34
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 3053, y: 849}
+      wh: {x: 189, y: 146}
+      index: 34
+      offset: {x: 1, y: 11}
+      originalSize: {x: 207, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_72
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2804, y: 972}
+      wh: {x: 189, y: 145}
+      index: 72
+      offset: {x: 11, y: 3}
+      originalSize: {x: 201, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_191
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2524, y: 1027}
+      wh: {x: 189, y: 143}
+      index: 191
+      offset: {x: 8, y: 7}
+      originalSize: {x: 198, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_192
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2333, y: 1162}
+      wh: {x: 189, y: 142}
+      index: 192
+      offset: {x: 10, y: 9}
+      originalSize: {x: 200, y: 168}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_11
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2133, y: 1167}
+      wh: {x: 189, y: 141}
+      index: 11
+      offset: {x: 1, y: 10}
+      originalSize: {x: 206, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_193
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1030, y: 887}
+      wh: {x: 189, y: 141}
+      index: 193
+      offset: {x: 9, y: 9}
+      originalSize: {x: 199, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_14
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 815, y: 998}
+      wh: {x: 189, y: 138}
+      index: 14
+      offset: {x: 9, y: 10}
+      originalSize: {x: 214, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_22
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 590, y: 1126}
+      wh: {x: 189, y: 133}
+      index: 22
+      offset: {x: 3, y: 13}
+      originalSize: {x: 208, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_53
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 393, y: 1144}
+      wh: {x: 188, y: 149}
+      index: 53
+      offset: {x: 3, y: 5}
+      originalSize: {x: 192, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_52
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 196, y: 1284}
+      wh: {x: 188, y: 148}
+      index: 52
+      offset: {x: 1, y: 3}
+      originalSize: {x: 190, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_25
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 0, y: 1290}
+      wh: {x: 188, y: 147}
+      index: 25
+      offset: {x: 1, y: 10}
+      originalSize: {x: 206, y: 168}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_58
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1220, y: 1020}
+      wh: {x: 188, y: 145}
+      index: 58
+      offset: {x: 1, y: 2}
+      originalSize: {x: 190, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_57
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1005, y: 1029}
+      wh: {x: 188, y: 144}
+      index: 57
+      offset: {x: 3, y: 4}
+      originalSize: {x: 192, y: 159}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_87
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 780, y: 1137}
+      wh: {x: 188, y: 144}
+      index: 87
+      offset: {x: 7, y: 3}
+      originalSize: {x: 199, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_35
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 582, y: 1260}
+      wh: {x: 188, y: 141}
+      index: 35
+      offset: {x: 1, y: 16}
+      originalSize: {x: 206, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_194
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 385, y: 1294}
+      wh: {x: 188, y: 140}
+      index: 194
+      offset: {x: 10, y: 10}
+      originalSize: {x: 199, y: 170}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_15
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 189, y: 1433}
+      wh: {x: 188, y: 139}
+      index: 15
+      offset: {x: 11, y: 10}
+      originalSize: {x: 216, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_16
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 0, y: 1438}
+      wh: {x: 188, y: 139}
+      index: 16
+      offset: {x: 10, y: 11}
+      originalSize: {x: 215, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_23
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1409, y: 1126}
+      wh: {x: 188, y: 135}
+      index: 23
+      offset: {x: 3, y: 13}
+      originalSize: {x: 207, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_52
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1194, y: 1166}
+      wh: {x: 187, y: 291}
+      index: 52
+      offset: {x: 13, y: 3}
+      originalSize: {x: 201, y: 295}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_21
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 969, y: 1174}
+      wh: {x: 187, y: 155}
+      index: 21
+      offset: {x: 1, y: 7}
+      originalSize: {x: 205, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_32
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 771, y: 1282}
+      wh: {x: 187, y: 153}
+      index: 32
+      offset: {x: 1, y: 9}
+      originalSize: {x: 205, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_33
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 574, y: 1402}
+      wh: {x: 187, y: 151}
+      index: 33
+      offset: {x: 2, y: 11}
+      originalSize: {x: 206, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_59
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 378, y: 1435}
+      wh: {x: 187, y: 145}
+      index: 59
+      offset: {x: 1, y: 2}
+      originalSize: {x: 189, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_177
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 189, y: 1573}
+      wh: {x: 187, y: 145}
+      index: 177
+      offset: {x: 5, y: 8}
+      originalSize: {x: 193, y: 170}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_49
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 1578}
+      wh: {x: 187, y: 145}
+      index: 49
+      offset: {x: 1, y: 4}
+      originalSize: {x: 189, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_209
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 959, y: 1330}
+      wh: {x: 187, y: 143}
+      index: 209
+      offset: {x: 3, y: 5}
+      originalSize: {x: 203, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_176
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 762, y: 1436}
+      wh: {x: 187, y: 143}
+      index: 176
+      offset: {x: 5, y: 8}
+      originalSize: {x: 193, y: 168}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_123
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 566, y: 1554}
+      wh: {x: 187, y: 143}
+      index: 123
+      offset: {x: 2, y: 3}
+      originalSize: {x: 199, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_107
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 377, y: 1581}
+      wh: {x: 187, y: 142}
+      index: 107
+      offset: {x: 18, y: 3}
+      originalSize: {x: 220, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_10
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 188, y: 1719}
+      wh: {x: 187, y: 141}
+      index: 10
+      offset: {x: 1, y: 9}
+      originalSize: {x: 204, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_36
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 0, y: 1724}
+      wh: {x: 187, y: 138}
+      index: 36
+      offset: {x: 1, y: 16}
+      originalSize: {x: 205, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_24
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1598, y: 1144}
+      wh: {x: 187, y: 135}
+      index: 24
+      offset: {x: 4, y: 13}
+      originalSize: {x: 207, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_4
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1382, y: 1262}
+      wh: {x: 187, y: 134}
+      index: 4
+      offset: {x: 1, y: 16}
+      originalSize: {x: 205, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_31
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1786, y: 1173}
+      wh: {x: 186, y: 154}
+      index: 31
+      offset: {x: 2, y: 9}
+      originalSize: {x: 205, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_24
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1570, y: 1280}
+      wh: {x: 186, y: 148}
+      index: 24
+      offset: {x: 1, y: 9}
+      originalSize: {x: 204, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_180
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1382, y: 1397}
+      wh: {x: 186, y: 147}
+      index: 180
+      offset: {x: 4, y: 9}
+      originalSize: {x: 191, y: 172}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_155
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1147, y: 1458}
+      wh: {x: 186, y: 147}
+      index: 155
+      offset: {x: 10, y: 9}
+      originalSize: {x: 197, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_55
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 950, y: 1474}
+      wh: {x: 186, y: 145}
+      index: 55
+      offset: {x: 5, y: 5}
+      originalSize: {x: 192, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_75
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 754, y: 1580}
+      wh: {x: 186, y: 145}
+      index: 75
+      offset: {x: 2, y: 4}
+      originalSize: {x: 191, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_56
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 565, y: 1698}
+      wh: {x: 186, y: 144}
+      index: 56
+      offset: {x: 3, y: 4}
+      originalSize: {x: 190, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_9
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 376, y: 1724}
+      wh: {x: 186, y: 142}
+      index: 9
+      offset: {x: 3, y: 8}
+      originalSize: {x: 205, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_188
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 188, y: 1861}
+      wh: {x: 186, y: 139}
+      index: 188
+      offset: {x: 9, y: 9}
+      originalSize: {x: 197, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_195
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 1863}
+      wh: {x: 186, y: 138}
+      index: 195
+      offset: {x: 10, y: 9}
+      originalSize: {x: 197, y: 166}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_0
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3721, y: 824}
+      wh: {x: 186, y: 135}
+      index: 0
+      offset: {x: 1, y: 16}
+      originalSize: {x: 203, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_25
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3908, y: 824}
+      wh: {x: 186, y: 135}
+      index: 25
+      offset: {x: 5, y: 13}
+      originalSize: {x: 206, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_0
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 3530, y: 881}
+      wh: {x: 186, y: 135}
+      index: 0
+      offset: {x: 1, y: 16}
+      originalSize: {x: 203, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_5
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 3243, y: 893}
+      wh: {x: 186, y: 134}
+      index: 5
+      offset: {x: 1, y: 16}
+      originalSize: {x: 204, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_2
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2994, y: 996}
+      wh: {x: 186, y: 133}
+      index: 2
+      offset: {x: 1, y: 16}
+      originalSize: {x: 203, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_48
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2714, y: 1118}
+      wh: {x: 185, y: 217}
+      index: 48
+      offset: {x: 2, y: 18}
+      originalSize: {x: 193, y: 236}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_8
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 2523, y: 1171}
+      wh: {x: 185, y: 157}
+      index: 8
+      offset: {x: 1, y: 7}
+      originalSize: {x: 197, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_24
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 2323, y: 1305}
+      wh: {x: 185, y: 155}
+      index: 24
+      offset: {x: 3, y: 3}
+      originalSize: {x: 190, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_30
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 2509, y: 1329}
+      wh: {x: 185, y: 153}
+      index: 30
+      offset: {x: 1, y: 9}
+      originalSize: {x: 203, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_22
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1973, y: 1309}
+      wh: {x: 185, y: 153}
+      index: 22
+      offset: {x: 1, y: 8}
+      originalSize: {x: 203, y: 166}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_29
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1757, y: 1328}
+      wh: {x: 185, y: 152}
+      index: 29
+      offset: {x: 4, y: 10}
+      originalSize: {x: 206, y: 170}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_23
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1569, y: 1429}
+      wh: {x: 185, y: 150}
+      index: 23
+      offset: {x: 1, y: 9}
+      originalSize: {x: 203, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_54
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1334, y: 1545}
+      wh: {x: 185, y: 147}
+      index: 54
+      offset: {x: 4, y: 4}
+      originalSize: {x: 190, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_48
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1137, y: 1606}
+      wh: {x: 185, y: 146}
+      index: 48
+      offset: {x: 3, y: 4}
+      originalSize: {x: 189, y: 159}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_7
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 941, y: 1620}
+      wh: {x: 185, y: 141}
+      index: 7
+      offset: {x: 1, y: 8}
+      originalSize: {x: 202, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_187
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 752, y: 1726}
+      wh: {x: 185, y: 140}
+      index: 187
+      offset: {x: 9, y: 8}
+      originalSize: {x: 195, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_6
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 563, y: 1843}
+      wh: {x: 185, y: 139}
+      index: 6
+      offset: {x: 1, y: 13}
+      originalSize: {x: 203, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_197
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 375, y: 1867}
+      wh: {x: 185, y: 139}
+      index: 197
+      offset: {x: 10, y: 8}
+      originalSize: {x: 196, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_1
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 187, y: 2001}
+      wh: {x: 185, y: 135}
+      index: 1
+      offset: {x: 1, y: 16}
+      originalSize: {x: 202, y: 166}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_15
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 0, y: 2002}
+      wh: {x: 185, y: 135}
+      index: 15
+      offset: {x: 1, y: 16}
+      originalSize: {x: 202, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_15
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 2159, y: 1461}
+      wh: {x: 185, y: 135}
+      index: 15
+      offset: {x: 1, y: 16}
+      originalSize: {x: 202, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_37
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1943, y: 1463}
+      wh: {x: 185, y: 135}
+      index: 37
+      offset: {x: 1, y: 16}
+      originalSize: {x: 203, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_1
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1755, y: 1481}
+      wh: {x: 185, y: 134}
+      index: 1
+      offset: {x: 1, y: 16}
+      originalSize: {x: 202, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_3
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 1520, y: 1580}
+      wh: {x: 185, y: 134}
+      index: 3
+      offset: {x: 1, y: 16}
+      originalSize: {x: 203, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_18
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1323, y: 1693}
+      wh: {x: 184, y: 175}
+      index: 18
+      offset: {x: 3, y: 8}
+      originalSize: {x: 188, y: 189}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_8
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 1127, y: 1753}
+      wh: {x: 184, y: 157}
+      index: 8
+      offset: {x: 6, y: 7}
+      originalSize: {x: 201, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_60
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 938, y: 1762}
+      wh: {x: 184, y: 145}
+      index: 60
+      offset: {x: 5, y: 3}
+      originalSize: {x: 190, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_217
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 749, y: 1867}
+      wh: {x: 184, y: 143}
+      index: 217
+      offset: {x: 0, y: 3}
+      originalSize: {x: 200, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_186
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 561, y: 1983}
+      wh: {x: 184, y: 142}
+      index: 186
+      offset: {x: 10, y: 8}
+      originalSize: {x: 195, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop_8
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      xy: {x: 373, y: 2007}
+      wh: {x: 184, y: 142}
+      index: 8
+      offset: {x: 3, y: 8}
+      originalSize: {x: 203, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_196
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 186, y: 2137}
+      wh: {x: 184, y: 139}
+      index: 196
+      offset: {x: 9, y: 7}
+      originalSize: {x: 194, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_26
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 0, y: 2138}
+      wh: {x: 184, y: 136}
+      index: 26
+      offset: {x: 5, y: 13}
+      originalSize: {x: 204, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_51
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 0, y: 2275}
+      wh: {x: 183, y: 284}
+      index: 51
+      offset: {x: 12, y: 0}
+      originalSize: {x: 196, y: 286}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_184
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 934, y: 1908}
+      wh: {x: 183, y: 144}
+      index: 184
+      offset: {x: 10, y: 8}
+      originalSize: {x: 194, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_185
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 746, y: 2011}
+      wh: {x: 183, y: 143}
+      index: 185
+      offset: {x: 10, y: 8}
+      originalSize: {x: 194, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_198
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 558, y: 2126}
+      wh: {x: 183, y: 142}
+      index: 198
+      offset: {x: 10, y: 7}
+      originalSize: {x: 194, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_27
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 371, y: 2150}
+      wh: {x: 183, y: 139}
+      index: 27
+      offset: {x: 4, y: 13}
+      originalSize: {x: 202, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_3
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 184, y: 2277}
+      wh: {x: 183, y: 137}
+      index: 3
+      offset: {x: 2, y: 13}
+      originalSize: {x: 201, y: 166}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_2
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3717, y: 960}
+      wh: {x: 183, y: 135}
+      index: 2
+      offset: {x: 1, y: 14}
+      originalSize: {x: 200, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_4
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3901, y: 960}
+      wh: {x: 183, y: 132}
+      index: 4
+      offset: {x: 4, y: 12}
+      originalSize: {x: 201, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_9
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 3901, y: 1093}
+      wh: {x: 182, y: 160}
+      index: 9
+      offset: {x: 10, y: 4}
+      originalSize: {x: 207, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_9
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3430, y: 1017}
+      wh: {x: 182, y: 158}
+      index: 9
+      offset: {x: 0, y: 8}
+      originalSize: {x: 207, y: 174}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_47
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3181, y: 1028}
+      wh: {x: 182, y: 148}
+      index: 47
+      offset: {x: 6, y: 4}
+      originalSize: {x: 189, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_182
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2900, y: 1130}
+      wh: {x: 182, y: 146}
+      index: 182
+      offset: {x: 10, y: 8}
+      originalSize: {x: 193, y: 170}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_183
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3613, y: 1096}
+      wh: {x: 182, y: 145}
+      index: 183
+      offset: {x: 10, y: 8}
+      originalSize: {x: 193, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_27
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3364, y: 1176}
+      wh: {x: 182, y: 144}
+      index: 27
+      offset: {x: 2, y: 6}
+      originalSize: {x: 188, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_28
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3083, y: 1177}
+      wh: {x: 182, y: 141}
+      index: 28
+      offset: {x: 5, y: 13}
+      originalSize: {x: 202, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_14
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 2900, y: 1277}
+      wh: {x: 182, y: 138}
+      index: 14
+      offset: {x: 1, y: 16}
+      originalSize: {x: 200, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_14
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2695, y: 1336}
+      wh: {x: 182, y: 138}
+      index: 14
+      offset: {x: 1, y: 16}
+      originalSize: {x: 200, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_49
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3083, y: 1319}
+      wh: {x: 181, y: 242}
+      index: 49
+      offset: {x: 7, y: 17}
+      originalSize: {x: 189, y: 261}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_9
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2878, y: 1416}
+      wh: {x: 181, y: 160}
+      index: 9
+      offset: {x: 16, y: 4}
+      originalSize: {x: 212, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_32
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2695, y: 1475}
+      wh: {x: 181, y: 153}
+      index: 32
+      offset: {x: 8, y: 13}
+      originalSize: {x: 203, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_31
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2345, y: 1483}
+      wh: {x: 181, y: 148}
+      index: 31
+      offset: {x: 8, y: 13}
+      originalSize: {x: 203, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_46
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2129, y: 1597}
+      wh: {x: 181, y: 147}
+      index: 46
+      offset: {x: 8, y: 5}
+      originalSize: {x: 190, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_10
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1941, y: 1599}
+      wh: {x: 180, y: 161}
+      index: 10
+      offset: {x: 1, y: 4}
+      originalSize: {x: 202, y: 175}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_181
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1706, y: 1616}
+      wh: {x: 180, y: 147}
+      index: 181
+      offset: {x: 10, y: 8}
+      originalSize: {x: 191, y: 171}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_30
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1508, y: 1715}
+      wh: {x: 180, y: 147}
+      index: 30
+      offset: {x: 8, y: 13}
+      originalSize: {x: 202, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_45
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3547, y: 1242}
+      wh: {x: 180, y: 145}
+      index: 45
+      offset: {x: 10, y: 6}
+      originalSize: {x: 191, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_6
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3265, y: 1321}
+      wh: {x: 180, y: 143}
+      index: 6
+      offset: {x: 1, y: 3}
+      originalSize: {x: 194, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_29
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3728, y: 1254}
+      wh: {x: 180, y: 143}
+      index: 29
+      offset: {x: 7, y: 13}
+      originalSize: {x: 202, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_47
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3909, y: 1254}
+      wh: {x: 179, y: 191}
+      index: 47
+      offset: {x: 2, y: 10}
+      originalSize: {x: 193, y: 202}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_17
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3446, y: 1388}
+      wh: {x: 179, y: 175}
+      index: 17
+      offset: {x: 8, y: 7}
+      originalSize: {x: 187, y: 187}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_33
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3265, y: 1465}
+      wh: {x: 179, y: 155}
+      index: 33
+      offset: {x: 8, y: 13}
+      originalSize: {x: 201, y: 172}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_157
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3060, y: 1562}
+      wh: {x: 179, y: 148}
+      index: 157
+      offset: {x: 6, y: 5}
+      originalSize: {x: 188, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_199
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2877, y: 1577}
+      wh: {x: 179, y: 144}
+      index: 199
+      offset: {x: 8, y: 6}
+      originalSize: {x: 188, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_50
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3626, y: 1398}
+      wh: {x: 178, y: 266}
+      index: 50
+      offset: {x: 12, y: 10}
+      originalSize: {x: 191, y: 278}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_10
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 3445, y: 1564}
+      wh: {x: 178, y: 160}
+      index: 10
+      offset: {x: 9, y: 1}
+      originalSize: {x: 203, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_156
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3240, y: 1621}
+      wh: {x: 178, y: 150}
+      index: 156
+      offset: {x: 10, y: 6}
+      originalSize: {x: 189, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_10
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 3057, y: 1711}
+      wh: {x: 177, y: 161}
+      index: 10
+      offset: {x: 13, y: 1}
+      originalSize: {x: 206, y: 163}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_29
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3805, y: 1446}
+      wh: {x: 177, y: 159}
+      index: 29
+      offset: {x: 17, y: 2}
+      originalSize: {x: 201, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_13
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 3805, y: 1606}
+      wh: {x: 177, y: 147}
+      index: 13
+      offset: {x: 4, y: 14}
+      originalSize: {x: 199, y: 170}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_84
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3624, y: 1665}
+      wh: {x: 177, y: 144}
+      index: 84
+      offset: {x: 23, y: 3}
+      originalSize: {x: 208, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_141
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3419, y: 1725}
+      wh: {x: 177, y: 142}
+      index: 141
+      offset: {x: 2, y: 4}
+      originalSize: {x: 196, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_16
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3235, y: 1772}
+      wh: {x: 176, y: 161}
+      index: 16
+      offset: {x: 7, y: 15}
+      originalSize: {x: 183, y: 180}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_34
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3802, y: 1754}
+      wh: {x: 176, y: 158}
+      index: 34
+      offset: {x: 9, y: 13}
+      originalSize: {x: 198, y: 174}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_11
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 3597, y: 1810}
+      wh: {x: 176, y: 157}
+      index: 11
+      offset: {x: 7, y: 6}
+      originalSize: {x: 200, y: 168}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_8
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3412, y: 1868}
+      wh: {x: 176, y: 150}
+      index: 8
+      offset: {x: 0, y: 12}
+      originalSize: {x: 199, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_13
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 3774, y: 1913}
+      wh: {x: 176, y: 147}
+      index: 13
+      offset: {x: 5, y: 14}
+      originalSize: {x: 199, y: 170}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_61
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3589, y: 1968}
+      wh: {x: 176, y: 144}
+      index: 61
+      offset: {x: 5, y: 2}
+      originalSize: {x: 182, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_5
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3766, y: 2061}
+      wh: {x: 176, y: 132}
+      index: 5
+      offset: {x: 4, y: 13}
+      originalSize: {x: 196, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_11
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2527, y: 1629}
+      wh: {x: 175, y: 157}
+      index: 11
+      offset: {x: 10, y: 5}
+      originalSize: {x: 202, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_35
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2311, y: 1632}
+      wh: {x: 174, y: 163}
+      index: 35
+      offset: {x: 10, y: 14}
+      originalSize: {x: 197, y: 178}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_12
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2122, y: 1745}
+      wh: {x: 174, y: 153}
+      index: 12
+      offset: {x: 8, y: 11}
+      originalSize: {x: 200, y: 172}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_12
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 1887, y: 1761}
+      wh: {x: 174, y: 153}
+      index: 12
+      offset: {x: 7, y: 11}
+      originalSize: {x: 199, y: 172}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_44
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2703, y: 1629}
+      wh: {x: 173, y: 146}
+      index: 44
+      offset: {x: 13, y: 5}
+      originalSize: {x: 187, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_13
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2877, y: 1722}
+      wh: {x: 173, y: 142}
+      index: 13
+      offset: {x: 16, y: 3}
+      originalSize: {x: 206, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_46
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2703, y: 1776}
+      wh: {x: 172, y: 190}
+      index: 46
+      offset: {x: 2, y: 4}
+      originalSize: {x: 191, y: 195}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_1
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 2876, y: 1865}
+      wh: {x: 172, y: 150}
+      index: 1
+      offset: {x: 1, y: 0}
+      originalSize: {x: 188, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_135
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3049, y: 1873}
+      wh: {x: 172, y: 143}
+      index: 135
+      offset: {x: 3, y: 4}
+      originalSize: {x: 193, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_11
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3222, y: 1934}
+      wh: {x: 171, y: 163}
+      index: 11
+      offset: {x: 1, y: 2}
+      originalSize: {x: 191, y: 174}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_7
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 3394, y: 2019}
+      wh: {x: 171, y: 142}
+      index: 7
+      offset: {x: 1, y: 12}
+      originalSize: {x: 190, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_6
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1689, y: 1764}
+      wh: {x: 171, y: 138}
+      index: 6
+      offset: {x: 2, y: 13}
+      originalSize: {x: 191, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_15
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1508, y: 1863}
+      wh: {x: 170, y: 161}
+      index: 15
+      offset: {x: 6, y: 12}
+      originalSize: {x: 177, y: 175}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_7
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 1312, y: 1869}
+      wh: {x: 170, y: 148}
+      index: 7
+      offset: {x: 2, y: 9}
+      originalSize: {x: 189, y: 166}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_18
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1118, y: 1911}
+      wh: {x: 170, y: 142}
+      index: 18
+      offset: {x: 5, y: 4}
+      originalSize: {x: 194, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_36
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 930, y: 2053}
+      wh: {x: 169, y: 163}
+      index: 36
+      offset: {x: 10, y: 13}
+      originalSize: {x: 191, y: 177}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_14
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 742, y: 2155}
+      wh: {x: 169, y: 162}
+      index: 14
+      offset: {x: 7, y: 10}
+      originalSize: {x: 182, y: 174}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_200
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 555, y: 2269}
+      wh: {x: 169, y: 143}
+      index: 200
+      offset: {x: 9, y: 7}
+      originalSize: {x: 179, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_95
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 368, y: 2290}
+      wh: {x: 169, y: 142}
+      index: 95
+      offset: {x: 16, y: 4}
+      originalSize: {x: 202, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_216
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 184, y: 2415}
+      wh: {x: 169, y: 142}
+      index: 216
+      offset: {x: 11, y: 4}
+      originalSize: {x: 196, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_37
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3566, y: 2113}
+      wh: {x: 166, y: 165}
+      index: 37
+      offset: {x: 11, y: 13}
+      originalSize: {x: 189, y: 179}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_12
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1679, y: 1903}
+      wh: {x: 166, y: 163}
+      index: 12
+      offset: {x: 2, y: 4}
+      originalSize: {x: 185, y: 169}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_71
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2486, y: 1787}
+      wh: {x: 166, y: 146}
+      index: 71
+      offset: {x: 10, y: 2}
+      originalSize: {x: 191, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_130
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2527, y: 1483}
+      wh: {x: 166, y: 142}
+      index: 130
+      offset: {x: 15, y: 4}
+      originalSize: {x: 198, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_0
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2297, y: 1796}
+      wh: {x: 165, y: 159}
+      index: 0
+      offset: {x: 1, y: 3}
+      originalSize: {x: 172, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Start_0
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      xy: {x: 1289, y: 2018}
+      wh: {x: 165, y: 159}
+      index: 0
+      offset: {x: 1, y: 3}
+      originalSize: {x: 172, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_32
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1100, y: 2054}
+      wh: {x: 165, y: 158}
+      index: 32
+      offset: {x: 1, y: 3}
+      originalSize: {x: 172, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_30
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1455, y: 2025}
+      wh: {x: 165, y: 158}
+      index: 30
+      offset: {x: 5, y: 3}
+      originalSize: {x: 177, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_140
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1266, y: 2178}
+      wh: {x: 165, y: 143}
+      index: 140
+      offset: {x: 2, y: 2}
+      originalSize: {x: 182, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_13
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 1100, y: 2213}
+      wh: {x: 164, y: 163}
+      index: 13
+      offset: {x: 6, y: 7}
+      originalSize: {x: 182, y: 172}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_End_31
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      xy: {x: 912, y: 2217}
+      wh: {x: 164, y: 158}
+      index: 31
+      offset: {x: 1, y: 3}
+      originalSize: {x: 172, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_208
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 725, y: 2318}
+      wh: {x: 164, y: 144}
+      index: 208
+      offset: {x: 1, y: 4}
+      originalSize: {x: 181, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_24
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 538, y: 2413}
+      wh: {x: 164, y: 143}
+      index: 24
+      offset: {x: 16, y: 4}
+      originalSize: {x: 196, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start_6
+      name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      xy: {x: 2159, y: 1309}
+      wh: {x: 163, y: 146}
+      index: 6
+      offset: {x: 2, y: 11}
+      originalSize: {x: 180, y: 167}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_78
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 354, y: 2433}
+      wh: {x: 163, y: 144}
+      index: 78
+      offset: {x: 0, y: 4}
+      originalSize: {x: 178, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_62
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 184, y: 2558}
+      wh: {x: 162, y: 145}
+      index: 62
+      offset: {x: 4, y: 1}
+      originalSize: {x: 170, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_79
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 2560}
+      wh: {x: 162, y: 145}
+      index: 79
+      offset: {x: 0, y: 4}
+      originalSize: {x: 177, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_88
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 890, y: 2376}
+      wh: {x: 162, y: 144}
+      index: 88
+      offset: {x: 1, y: 3}
+      originalSize: {x: 181, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_1
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 703, y: 2463}
+      wh: {x: 162, y: 143}
+      index: 1
+      offset: {x: 14, y: 3}
+      originalSize: {x: 193, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_38
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 518, y: 2557}
+      wh: {x: 161, y: 164}
+      index: 38
+      offset: {x: 11, y: 11}
+      originalSize: {x: 181, y: 176}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_77
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 347, y: 2578}
+      wh: {x: 161, y: 145}
+      index: 77
+      offset: {x: 3, y: 5}
+      originalSize: {x: 180, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_139
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 163, y: 2704}
+      wh: {x: 160, y: 144}
+      index: 139
+      offset: {x: 1, y: 1}
+      originalSize: {x: 176, y: 146}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_100
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 2706}
+      wh: {x: 160, y: 144}
+      index: 100
+      offset: {x: 8, y: 1}
+      originalSize: {x: 191, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_83
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2062, y: 1899}
+      wh: {x: 159, y: 145}
+      index: 83
+      offset: {x: 23, y: 2}
+      originalSize: {x: 199, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_76
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1846, y: 1915}
+      wh: {x: 159, y: 144}
+      index: 76
+      offset: {x: 2, y: 4}
+      originalSize: {x: 182, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_45
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2463, y: 1934}
+      wh: {x: 158, y: 185}
+      index: 45
+      offset: {x: 6, y: 4}
+      originalSize: {x: 182, y: 190}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_118
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2222, y: 1956}
+      wh: {x: 157, y: 143}
+      index: 118
+      offset: {x: 12, y: 3}
+      originalSize: {x: 185, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_39
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 2006, y: 2045}
+      wh: {x: 156, y: 165}
+      index: 39
+      offset: {x: 11, y: 11}
+      originalSize: {x: 174, y: 177}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_80
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1846, y: 2060}
+      wh: {x: 156, y: 145}
+      index: 80
+      offset: {x: 6, y: 3}
+      originalSize: {x: 177, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_112
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1621, y: 2067}
+      wh: {x: 156, y: 144}
+      index: 112
+      offset: {x: 12, y: 1}
+      originalSize: {x: 191, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_43
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1432, y: 2184}
+      wh: {x: 155, y: 146}
+      index: 43
+      offset: {x: 14, y: 3}
+      originalSize: {x: 173, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_138
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1265, y: 2322}
+      wh: {x: 155, y: 144}
+      index: 138
+      offset: {x: 3, y: 1}
+      originalSize: {x: 173, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_136
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1053, y: 2377}
+      wh: {x: 155, y: 144}
+      index: 136
+      offset: {x: 8, y: 3}
+      originalSize: {x: 181, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_106
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 866, y: 2521}
+      wh: {x: 154, y: 142}
+      index: 106
+      offset: {x: 9, y: 3}
+      originalSize: {x: 178, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_7
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 680, y: 2607}
+      wh: {x: 153, y: 146}
+      index: 7
+      offset: {x: 12, y: 1}
+      originalSize: {x: 186, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_124
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 509, y: 2722}
+      wh: {x: 153, y: 145}
+      index: 124
+      offset: {x: 16, y: 1}
+      originalSize: {x: 189, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_40
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3943, y: 2061}
+      wh: {x: 152, y: 170}
+      index: 40
+      offset: {x: 12, y: 10}
+      originalSize: {x: 170, y: 181}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_137
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 324, y: 2724}
+      wh: {x: 152, y: 144}
+      index: 137
+      offset: {x: 3, y: 2}
+      originalSize: {x: 171, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_212
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 161, y: 2849}
+      wh: {x: 151, y: 143}
+      index: 212
+      offset: {x: 12, y: 4}
+      originalSize: {x: 178, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_81
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 2851}
+      wh: {x: 150, y: 145}
+      index: 81
+      offset: {x: 14, y: 4}
+      originalSize: {x: 180, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_82
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3733, y: 2194}
+      wh: {x: 149, y: 144}
+      index: 82
+      offset: {x: 19, y: 3}
+      originalSize: {x: 180, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_201
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3883, y: 2232}
+      wh: {x: 149, y: 144}
+      index: 201
+      offset: {x: 8, y: 6}
+      originalSize: {x: 162, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_19
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1778, y: 2206}
+      wh: {x: 149, y: 143}
+      index: 19
+      offset: {x: 17, y: 4}
+      originalSize: {x: 185, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_215
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1588, y: 2212}
+      wh: {x: 149, y: 143}
+      index: 215
+      offset: {x: 18, y: 4}
+      originalSize: {x: 183, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_41
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1421, y: 2331}
+      wh: {x: 148, y: 170}
+      index: 41
+      offset: {x: 11, y: 8}
+      originalSize: {x: 162, y: 180}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_12
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1209, y: 2467}
+      wh: {x: 148, y: 143}
+      index: 12
+      offset: {x: 1, y: 3}
+      originalSize: {x: 162, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_70
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1021, y: 2522}
+      wh: {x: 147, y: 145}
+      index: 70
+      offset: {x: 7, y: 2}
+      originalSize: {x: 168, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_207
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 834, y: 2664}
+      wh: {x: 147, y: 144}
+      index: 207
+      offset: {x: 3, y: 4}
+      originalSize: {x: 161, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_63
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 663, y: 2754}
+      wh: {x: 147, y: 144}
+      index: 63
+      offset: {x: 2, y: 1}
+      originalSize: {x: 161, y: 153}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_44
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 477, y: 2868}
+      wh: {x: 146, y: 183}
+      index: 44
+      offset: {x: 12, y: 6}
+      originalSize: {x: 173, y: 189}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_94
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 313, y: 2869}
+      wh: {x: 145, y: 143}
+      index: 94
+      offset: {x: 1, y: 4}
+      originalSize: {x: 158, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_129
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 151, y: 2993}
+      wh: {x: 145, y: 143}
+      index: 129
+      offset: {x: 1, y: 4}
+      originalSize: {x: 159, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_43
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 0, y: 2997}
+      wh: {x: 144, y: 176}
+      index: 43
+      offset: {x: 11, y: 6}
+      originalSize: {x: 163, y: 183}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_42
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 297, y: 3013}
+      wh: {x: 144, y: 173}
+      index: 42
+      offset: {x: 12, y: 8}
+      originalSize: {x: 161, y: 182}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_10
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3951, y: 1913}
+      wh: {x: 144, y: 143}
+      index: 10
+      offset: {x: 1, y: 3}
+      originalSize: {x: 161, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_125
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 145, y: 3137}
+      wh: {x: 144, y: 143}
+      index: 125
+      offset: {x: 16, y: 3}
+      originalSize: {x: 176, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_105
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 3174}
+      wh: {x: 144, y: 142}
+      index: 105
+      offset: {x: 1, y: 3}
+      originalSize: {x: 161, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_11
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2622, y: 1967}
+      wh: {x: 144, y: 142}
+      index: 11
+      offset: {x: 1, y: 3}
+      originalSize: {x: 161, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_127
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2767, y: 2016}
+      wh: {x: 144, y: 142}
+      index: 127
+      offset: {x: 1, y: 4}
+      originalSize: {x: 161, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_126
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2622, y: 2110}
+      wh: {x: 144, y: 142}
+      index: 126
+      offset: {x: 1, y: 4}
+      originalSize: {x: 161, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_104
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2163, y: 2100}
+      wh: {x: 144, y: 142}
+      index: 104
+      offset: {x: 1, y: 3}
+      originalSize: {x: 161, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_28
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2308, y: 2100}
+      wh: {x: 143, y: 144}
+      index: 28
+      offset: {x: 10, y: 6}
+      originalSize: {x: 177, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_9
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2452, y: 2120}
+      wh: {x: 143, y: 143}
+      index: 9
+      offset: {x: 1, y: 3}
+      originalSize: {x: 160, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_0
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1928, y: 2211}
+      wh: {x: 143, y: 143}
+      index: 0
+      offset: {x: 1, y: 3}
+      originalSize: {x: 158, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_128
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1738, y: 2350}
+      wh: {x: 143, y: 143}
+      index: 128
+      offset: {x: 1, y: 4}
+      originalSize: {x: 160, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_103
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1570, y: 2356}
+      wh: {x: 143, y: 142}
+      index: 103
+      offset: {x: 1, y: 3}
+      originalSize: {x: 160, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_101
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2072, y: 2243}
+      wh: {x: 143, y: 142}
+      index: 101
+      offset: {x: 21, y: 3}
+      originalSize: {x: 180, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_206
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1882, y: 2355}
+      wh: {x: 142, y: 144}
+      index: 206
+      offset: {x: 2, y: 5}
+      originalSize: {x: 156, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_113
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1714, y: 2494}
+      wh: {x: 142, y: 144}
+      index: 113
+      offset: {x: 19, y: 2}
+      originalSize: {x: 177, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_8
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1570, y: 2499}
+      wh: {x: 142, y: 144}
+      index: 8
+      offset: {x: 14, y: 3}
+      originalSize: {x: 172, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_20
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1358, y: 2502}
+      wh: {x: 142, y: 143}
+      index: 20
+      offset: {x: 11, y: 4}
+      originalSize: {x: 169, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_21
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1169, y: 2611}
+      wh: {x: 142, y: 143}
+      index: 21
+      offset: {x: 1, y: 4}
+      originalSize: {x: 159, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_117
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 982, y: 2668}
+      wh: {x: 142, y: 143}
+      index: 117
+      offset: {x: 1, y: 3}
+      originalSize: {x: 157, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_102
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 811, y: 2809}
+      wh: {x: 142, y: 142}
+      index: 102
+      offset: {x: 10, y: 3}
+      originalSize: {x: 168, y: 147}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_114
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 624, y: 2899}
+      wh: {x: 141, y: 143}
+      index: 114
+      offset: {x: 5, y: 3}
+      originalSize: {x: 162, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_93
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2216, y: 2245}
+      wh: {x: 141, y: 143}
+      index: 93
+      offset: {x: 1, y: 4}
+      originalSize: {x: 158, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_89
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2025, y: 2386}
+      wh: {x: 141, y: 143}
+      index: 89
+      offset: {x: 1, y: 3}
+      originalSize: {x: 162, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_115
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1857, y: 2500}
+      wh: {x: 141, y: 143}
+      index: 115
+      offset: {x: 1, y: 3}
+      originalSize: {x: 158, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_90
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1713, y: 2639}
+      wh: {x: 140, y: 144}
+      index: 90
+      offset: {x: 2, y: 3}
+      originalSize: {x: 158, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_116
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1501, y: 2644}
+      wh: {x: 140, y: 143}
+      index: 116
+      offset: {x: 1, y: 3}
+      originalSize: {x: 157, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_91
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1312, y: 2646}
+      wh: {x: 140, y: 143}
+      index: 91
+      offset: {x: 1, y: 4}
+      originalSize: {x: 157, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_22
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1125, y: 2755}
+      wh: {x: 140, y: 143}
+      index: 22
+      offset: {x: 1, y: 4}
+      originalSize: {x: 157, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_92
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 954, y: 2812}
+      wh: {x: 140, y: 142}
+      index: 92
+      offset: {x: 1, y: 4}
+      originalSize: {x: 157, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_205
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 766, y: 2952}
+      wh: {x: 139, y: 144}
+      index: 205
+      offset: {x: 1, y: 5}
+      originalSize: {x: 151, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_23
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 624, y: 3043}
+      wh: {x: 139, y: 143}
+      index: 23
+      offset: {x: 1, y: 4}
+      originalSize: {x: 153, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_69
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 442, y: 3052}
+      wh: {x: 138, y: 146}
+      index: 69
+      offset: {x: 1, y: 1}
+      originalSize: {x: 155, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_29
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 290, y: 3187}
+      wh: {x: 138, y: 144}
+      index: 29
+      offset: {x: 12, y: 6}
+      originalSize: {x: 170, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_67
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 145, y: 3281}
+      wh: {x: 137, y: 145}
+      index: 67
+      offset: {x: 2, y: 1}
+      originalSize: {x: 155, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_68
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 0, y: 3317}
+      wh: {x: 137, y: 145}
+      index: 68
+      offset: {x: 2, y: 1}
+      originalSize: {x: 155, y: 150}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_65
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2912, y: 2016}
+      wh: {x: 136, y: 146}
+      index: 65
+      offset: {x: 1, y: 0}
+      originalSize: {x: 153, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_66
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2767, y: 2159}
+      wh: {x: 136, y: 145}
+      index: 66
+      offset: {x: 2, y: 0}
+      originalSize: {x: 154, y: 151}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_214
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2596, y: 2253}
+      wh: {x: 136, y: 143}
+      index: 214
+      offset: {x: 12, y: 4}
+      originalSize: {x: 163, y: 149}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_30
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3049, y: 2017}
+      wh: {x: 136, y: 143}
+      index: 30
+      offset: {x: 9, y: 5}
+      originalSize: {x: 164, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_213
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3186, y: 2098}
+      wh: {x: 135, y: 143}
+      index: 213
+      offset: {x: 16, y: 4}
+      originalSize: {x: 172, y: 148}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_64
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 3049, y: 2161}
+      wh: {x: 134, y: 145}
+      index: 64
+      offset: {x: 1, y: 0}
+      originalSize: {x: 158, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_204
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2904, y: 2163}
+      wh: {x: 134, y: 144}
+      index: 204
+      offset: {x: 1, y: 5}
+      originalSize: {x: 145, y: 152}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_42
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2733, y: 2305}
+      wh: {x: 133, y: 147}
+      index: 42
+      offset: {x: 16, y: 2}
+      originalSize: {x: 161, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_31
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2358, y: 2264}
+      wh: {x: 133, y: 143}
+      index: 31
+      offset: {x: 8, y: 3}
+      originalSize: {x: 160, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_32
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 2167, y: 2389}
+      wh: {x: 131, y: 144}
+      index: 32
+      offset: {x: 9, y: 2}
+      originalSize: {x: 158, y: 157}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_203
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1999, y: 2530}
+      wh: {x: 129, y: 144}
+      index: 203
+      offset: {x: 5, y: 6}
+      originalSize: {x: 150, y: 154}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_33
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1854, y: 2644}
+      wh: {x: 128, y: 145}
+      index: 33
+      offset: {x: 13, y: 1}
+      originalSize: {x: 158, y: 158}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_202
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1642, y: 2784}
+      wh: {x: 127, y: 144}
+      index: 202
+      offset: {x: 8, y: 6}
+      originalSize: {x: 159, y: 155}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_1
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 1453, y: 2788}
+      wh: {x: 124, y: 158}
+      index: 1
+      offset: {x: 2, y: 0}
+      originalSize: {x: 151, y: 160}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_34
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1266, y: 2790}
+      wh: {x: 124, y: 147}
+      index: 34
+      offset: {x: 17, y: 3}
+      originalSize: {x: 158, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_37
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 1095, y: 2899}
+      wh: {x: 123, y: 146}
+      index: 37
+      offset: {x: 16, y: 5}
+      originalSize: {x: 154, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_38
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 906, y: 2955}
+      wh: {x: 123, y: 146}
+      index: 38
+      offset: {x: 14, y: 5}
+      originalSize: {x: 152, y: 162}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_35
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 764, y: 3097}
+      wh: {x: 122, y: 148}
+      index: 35
+      offset: {x: 18, y: 5}
+      originalSize: {x: 156, y: 165}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_39
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 581, y: 3187}
+      wh: {x: 122, y: 146}
+      index: 39
+      offset: {x: 14, y: 5}
+      originalSize: {x: 152, y: 161}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_36
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 429, y: 3199}
+      wh: {x: 121, y: 146}
+      index: 36
+      offset: {x: 18, y: 6}
+      originalSize: {x: 155, y: 164}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_40
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 283, y: 3332}
+      wh: {x: 120, y: 147}
+      index: 40
+      offset: {x: 15, y: 3}
+      originalSize: {x: 154, y: 159}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_ShockWalk_41
+      name: Armature_AS_Rotorobot_ShockWalk
+      xy: {x: 138, y: 3427}
+      wh: {x: 120, y: 147}
+      index: 41
+      offset: {x: 14, y: 1}
+      originalSize: {x: 157, y: 156}
+      atlasId: 0
+    - originalName: Armature_AS_Rotorobot_Start_Telekinetic_01_0
+      name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      xy: {x: 3796, y: 1096}
+      wh: {x: 104, y: 85}
+      index: 0
+      offset: {x: 24, y: 0}
+      originalSize: {x: 128, y: 85}
+      atlasId: 0
+    animNames:
+    - Armature_AS_Rotorobot_ShockWalk
+    - Armature_AS_Rotorobot_Shocked_Hitreaction_End
+    - Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+    - Armature_AS_Rotorobot_Start_Telekinetic_01
+    - Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+    - Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+    clips:
+    - name: Armature_AS_Rotorobot_ShockWalk
+      frames: 4e01000021010000540000000a0000000100000017000000e500000031010000540100004d01000045010000480100003c01000000010000240000000500000003000000180000000901000039010000550100005601000060010000630100001b0100003400000027000000d80000004c010000650100006b01000070010000710100007301000076010000790100007b01000077010000780100007a0100007c0100007d0100006f0100002d010000ff000000e4000000e0000000d5000000b800000098000000740000006e0000008800000087000000b7000000a5000000a70000008b0000008a00000096000000c5000000f90000001e0100003f0100006d01000068010000690100006601000067010000640100003d01000011010000800000003c00000038000000a600000027010000230100001d0100001f0100002b010000360100003701000026010000f200000070000000390000008c000000200100005b0100005d0100005f010000610100005a010000410100000d0100002b00000006000000070000002e000000250100005101000058010000500100004b01000047010000300100009c0000000e0000000200000009000000400000002c01000053010000590100005c0100005e0100005701000029010000670000000b000000000000000c0000009b00000032010000460100004a010000490100004f01000042010000120100003300000008000000040000001a000000030100002f010000340100002e0100002401000017010000f30000004d000000140000000d0000001500000028000000370000005a00000062000000420000003b000000410000003e0000005f000000a4000000ee000000ea0000006800000048000000430000004e000000580000003f0000002d000000210000001b0000001300000019000000110000001c0000001d0000002f0000003d0000005c0000006f0000009a000000970000007500000076000000a3000000e2000000d6000000d7000000cc000000cd000000c7000000ba000000a900000079000000780000008100000082000000840000008e000000aa000000c9000000bc000000ce000000eb0000000c0100003801000074010000720100006e01000062010000520100003e0100001a010000990000002a00000026000000350100006c0100006a0100003a0100000e010000c60000006d0000005d0000005e00000069000000
+    - name: Armature_AS_Rotorobot_Shocked_Hitreaction_End
+      frames: ab000000bd000000d1000000d0000000d2000000fa0000000601000005010000f7000000d4000000e10000000401000010010000180100000b01000007010000f4000000e8000000c3000000710000006a000000530000004700000065000000b20000004c0000000f0000001600000059000000f0000000160100001901000015010000
+    - name: Armature_AS_Rotorobot_Shocked_Hitreaction_Back_Start
+      frames: 13010000660000001e00000012000000100000003a0000001c01000008010000c4000000dd000000ef000000fb000000fd000000f8000000db000000be000000
+    - name: Armature_AS_Rotorobot_Start_Telekinetic_01
+      frames: 7e010000750100002900000030000000310000002c00000036000000550000004f0000004900000050000000510000004b000000440000004a0000004500000052000000560000005b00000061000000600000006300000086000000910000009f000000ac000000ca000000cf000000d9000000e6000000e3000000df000000de000000e9000000f5000000fc0000000a0100000f010000220100002a010000330100003b0100004401000043010000400100002801000001010000e7000000b0000000dc000000ec000000cb00000092000000640000004600000032000000250000001f000000
+    - name: Armature_AS_Rotorobot_Shocked_Hitreaction_Start
+      frames: 14010000020100007b0000003500000023000000220000002000000057000000b1000000d3000000ed000000f6000000fe000000f1000000da000000bf000000
+    - name: Armature_AS_Rotorobot_Shocked_Hitreaction_Loop
+      frames: ad000000c1000000af000000c2000000a0000000ae000000bb000000b9000000c8000000a80000009d000000830000007a0000007c000000850000008f00000090000000770000006c0000006b0000007200000093000000b4000000b6000000a2000000890000007e000000730000007d000000b5000000b3000000a100000094000000950000007f0000008d0000009e000000c0000000

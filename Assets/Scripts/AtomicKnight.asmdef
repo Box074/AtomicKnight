@@ -1,0 +1,16 @@
+{
+    "name": "AtomicKnight",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f264ea7be04f8e847bfafeb4cccaeb68"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 667617019
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 91aec3c7f647387aa82e038cef185f86
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0f2ff6bd6b44f8b3b8bf67e865f0f5f8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: cc892260542b9744a98e370ec985767d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 071e00ddac0a7e946aeaeddf2bc72f16, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a21dfffb74729a5499aee935fce64869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 393b0c2995f997849bf52742e0af150f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3a56a206cc835834f8055a372cec0477, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d715d88d481a9b745a177e503a89f07d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d1ca8765e15daa740b3f461cc1dae764, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77b16a44914f0d64899713fb77f36006, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1d400926d469f21409d817835385b9f2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f72dd80a56ec8b4c87c42f44b4f51fc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39c0d4a6501701d478f1ffa78365f863, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a82ad7d8c20626a47b24daa74745b7e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 133e54898464de54ea249a4ccafc44ac, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Rotorobot.prefab
+Dependencies: []
